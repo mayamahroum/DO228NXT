@@ -7,8 +7,8 @@ import performanceImage from "./assets/Bilder-webp/Do228_024.webp";
 import missionImageSpecial from "./assets/Bilder-webp/Do228_033.webp";
 import missionImagePassenger from "./assets/Bilder-webp/Do228_034.webp";
 import missionImageCargo from "./assets/Bilder-webp/Do228_029.webp";
-import missionVideo from "./assets/videos_neu/Do228_video1.mp4";
-import scrollBackgroundVideo from "./assets/videos_neu/Do228_scrollbackground_scrub.mp4";
+import missionVideo from "https://dev.markenzoo.de/temp_GA_flugzeug/Do228_video1.mp4";
+import scrollBackgroundVideo from "https://dev.markenzoo.de/temp_GA_flugzeug/Do228_scrollbackground_scrub.mp4";
 
 import "./App.css";
 
