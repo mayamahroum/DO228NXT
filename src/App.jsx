@@ -7,8 +7,6 @@ import performanceImage from "./assets/Bilder-webp/Do228_024.webp";
 import missionImageSpecial from "./assets/Bilder-webp/Do228_033.webp";
 import missionImagePassenger from "./assets/Bilder-webp/Do228_034.webp";
 import missionImageCargo from "./assets/Bilder-webp/Do228_029.webp";
-import missionVideo from "https://dev.markenzoo.de/files/temp_GA_flugzeug/Do228_video1.mp4";
-import scrollBackgroundVideo from "https://dev.markenzoo.de/files/temp_GA_flugzeug/Do228_scrollbackground_scrub.mp4";
 
 import "./App.css";
 
@@ -255,7 +253,7 @@ export default function App() {
 
         const primeScrollVideoSource = () => {
           if (scrollVideo.getAttribute("src")) return;
-          scrollVideo.setAttribute("src", scrollBackgroundVideo);
+          scrollVideo.setAttribute("src","https://dev.markenzoo.de/files/temp_GA_flugzeug/Do228_scrollbackground_scrub.mp4");
           scrollVideo.load();
           setupWhenReady();
         };
@@ -674,7 +672,7 @@ export default function App() {
         <div className="hero">
           <video
             className="hero-video"
-            src={missionVideo}
+            src="https://dev.markenzoo.de/files/temp_GA_flugzeug/Do228_video1.mp4"
             autoPlay
             muted
             loop
@@ -722,7 +720,7 @@ export default function App() {
               <figure className="story-quote-media">
                 <video
                   className="story-quote-media-video"
-                  src={missionVideo}
+                  src="https://dev.markenzoo.de/files/temp_GA_flugzeug/Do228_video1.mp4"
                   autoPlay
                   muted
                   loop
