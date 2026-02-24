@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  min-width: 280px;
+  font-family: "Space Grotesk", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  min-height: 100vh;
+}
